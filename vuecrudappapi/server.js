@@ -9,7 +9,7 @@ const routes = require('./api/routes/taskRoutes');
 mongoose.Promise = global.Promise;
 mongoose.set('useFindAndModify', false);
 mongoose.connect(
-  'mongodb://localhost/Vuecrudapp',
+  'mongodb+srv://nutmor:xkiN8gdviN@cluster0.wysh9.gcp.mongodb.net/nutmor?retryWrites=true&w=majority',
   { useNewUrlParser: true }
 );
 
